@@ -5,3 +5,6 @@ app = Flask(__name__)
 def head():
     return "OK"
 
+@app.route('/home',methods=['GET','POST'])
+def head():
+    return "home"
