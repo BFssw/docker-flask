@@ -8,3 +8,4 @@ def head():
 @app.route('/home',methods=['GET','POST'])
 def head():
     return "home"
+
